@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class week2HW{
+	public static void main(String [] argv){
+		int number;
+		System.out.println("Please input an integer:");
+		Scanner num = new Scanner(System.in);
+		number=num.nextInt();
+		if(number%2==0){
+			System.out.println("The number is an even number.");
+		}else{
+			System.out.println("The number is an odd number.");
+		}
+	}
+}
