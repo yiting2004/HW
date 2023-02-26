@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class week2HW2{
+	public static void main(String [] argv){
+		float temp;
+		float temperature;
+		System.out.println("Please input temperature in Celsius:");
+		Scanner num = new Scanner(System.in);
+		temp=num.nextFloat();
+		temperature=(float)9/5*temp+32;
+		System.out.println("Fahrenheit is:"+temperature);
+	}
+}
